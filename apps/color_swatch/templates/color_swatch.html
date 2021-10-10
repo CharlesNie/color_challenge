@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Swatch</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<button onclick="refreshColorSpace();">Click to refresh color swatch</button>
+<div id="color-swatch" style="width:100%"></div>
+<script src="{% static 'js/color_swatch.js' %}"></script>
+</body>
+</html>
